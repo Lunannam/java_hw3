@@ -21,7 +21,7 @@ import java.util.Arrays;
 //             if (ost==0){
 //                 number.remove(i);
 //         
-//                 // Add this:
+//             
 //                 i--;
 //             }
 //         }
