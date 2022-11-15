@@ -79,3 +79,52 @@ import java.util.*;
 //         dequeue(deque);
 //     }
 // }
+
+import java.util.Scanner;
+public class hw_sem4{
+
+public static void main(String[] args) {
+    Scanner iScanner = new Scanner(System.in);
+    // Scanner in = new Scanner(System.in);
+    
+    char operation;
+    int a;
+    int b;
+    
+     System.out.println("Enter First Number");
+    
+    a = in.nextInt();
+    
+    System.out.println("Enter Operation");
+    
+    operation = in.next().charAt(0);
+    
+    System.out.println("Enter Second Number");
+    
+    b = in.nextInt();
+    
+    if (operation == '+')
+    {
+        System.out.println("your answer is " + (a + b));
+    }
+    if (operation == '-')
+    {
+        System.out.println("your answer is " + (a - b));
+    }
+    if (operation == '/')
+    {
+        if (b !=0){
+        System.out.println("your answer is " + (a / b));
+        } else{
+            System.out.println("Attention!!!! Mistake!!! division by zero impossible " );
+        } 
+        
+    }
+    if (operation == '*')
+    {
+        System.out.println("your answer is " + (a * b));
+    }
+    
+    }
+    
+}    
